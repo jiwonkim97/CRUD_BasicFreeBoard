@@ -86,7 +86,7 @@ const CCustomModal = ({modalVisible, setModalVisible, setItems, createFunc}) => 
               onChangeText={(text) =>{
                 content=text
               }}/>
-            <View flexDirection='row' >
+            <View flexDirection='row'>
               <TouchableOpacity
                style={styles.buttonClose}
                 onPress={() => {
